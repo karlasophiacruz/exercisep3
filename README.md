@@ -15,7 +15,6 @@ Realizados em:
 - Addition.java
 - Comparison.java
 - ForCounter.java
-- PayRollDiagram.png
 - TresnUm.java
 - Welcome.java
 
@@ -25,6 +24,10 @@ Realizados em:
 <h4 align="center"> 17 de março a 24 de março </h4>
 
 ***
+
+**FILES**
+
+- PayRollDiagram.png
 
 **SRC**
 
