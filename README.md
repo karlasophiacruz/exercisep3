@@ -15,6 +15,7 @@ Realizados em:
 - Addition.java
 - Comparison.java
 - ForCounter.java
+- PayRollDiagram.png
 - TresnUm.java
 - Welcome.java
 
