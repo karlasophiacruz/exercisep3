@@ -6,7 +6,11 @@ public class Main {
 
         System.out.println(employee1.printEmployeeInfo());
 
+<<<<<<< HEAD
+        System.out.println(employee1.name); //pode acessar diretamente também
+=======
         System.out.println(employee.name); //pode acessar diretamente também
+>>>>>>> 190df96d655e381247ae1568752dc72732444c47
 
         System.out.println("-----------------------------");
 
