@@ -21,7 +21,7 @@ Realizados em:
 ***
 
 ***
-<h4 align="center"> 17 de março a 24 de março </h4>
+<h4 align="center"> 17 de março a 23 de março </h4>
 
 ***
 
@@ -33,5 +33,23 @@ Realizados em:
 
 - Employee.java
 - Main.java
+
+***
+
+***
+<h4 align="center"> 24 de março a 30 de março </h4>
+
+***
+
+**FILES**
+
+- PayRollDiagram.png
+
+**SRC**
+
+- Employee.java
+- Main.java
+- Salaried.java
+- br/ic/ufal/employees
 
 ***
