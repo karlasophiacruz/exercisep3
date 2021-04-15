@@ -1,5 +1,12 @@
-public class Hourly {
+package br.ufal.ic.employees;
 
-    private String name;
+public class Hourly extends Employee {
+
+    private double workingHours;
+
+    public Hourly(){
+
+        printEmployeeInfo();
+    }
     
 }

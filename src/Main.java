@@ -4,13 +4,23 @@ public class Main {
 
         Employee employee1 = new Employee("Bruno", "Recife", 10.0);
 
+        Hourly hourlyy = new Employee();
+
+        //Hourly hourly = new Hourly();
+
+        Employee hourly = new Hourly();
+
+        Salaried salaried = new Salaried();
+
+        Comissioned comissioned = new Comissioned();
+
         System.out.println(employee1.printEmployeeInfo());
 
-<<<<<<< HEAD
-        System.out.println(employee1.name); //pode acessar diretamente também
-=======
-        System.out.println(employee.name); //pode acessar diretamente também
->>>>>>> 190df96d655e381247ae1568752dc72732444c47
+        //System.out.println(employee.setName); //pode acessar diretamente também
+
+        //employee1.getName();
+
+        System.out.println(employee1.getName());
 
         System.out.println("-----------------------------");
 

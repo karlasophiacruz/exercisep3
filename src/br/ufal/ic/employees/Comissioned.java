@@ -1,4 +1,5 @@
-public class Comissioned {
+public class Comissioned extends Employee{
+
+    private double comission;
     
-    private String name;
 }

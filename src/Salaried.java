@@ -1,6 +1,8 @@
+package br.ufal.ic.employees;
+
 public class Salaried extends Employee {
 
-    private String firstName;
-    private String lastName;
-    
+    public Salaried(){
+        //super(); -> o java ja faz automaticamente
+    }
 }
