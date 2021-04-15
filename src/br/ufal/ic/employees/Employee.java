@@ -1,7 +1,11 @@
+package br.ufal.ic.employees;
+
 public class Employee {
 
-    private String name;
-    private String adress;
+
+    String mail; //package
+    protected String name;
+    public String adress;
     private double timeCard;
 
     public Employee(String name, String adress, double timeCard){
