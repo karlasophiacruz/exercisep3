@@ -54,7 +54,7 @@ Realizados em:
 
 ***
 
-# Projeto P3
+<h1 align ="center"> Projeto P3</h1>
 **Projeto da Matéria de Projeto de Software com o professor Baldoino.**
 
 ## Sistema de Folha de Pagamento
