@@ -11,7 +11,7 @@ public class PayrollApp {
 
         List<Employee> emploList = new ArrayList<>();
         List<Syndicate> syndiList = new ArrayList<>();
-        
+   
         EmployeeApp empApp = new EmployeeApp(emploList, syndiList);
         PaymentApp payApp = new PaymentApp(emploList, syndiList);
 
@@ -29,7 +29,7 @@ public class PayrollApp {
         System.out.println();
 
         while(option != 0){
-            System.out.println("What do you wanna do?");
+            System.out.println("\nWhat do you wanna do?");
             System.out.println("(Please, choose a number)");
             System.out.println();
             System.out.println(" 1 - Play PayRoll's Today");
@@ -41,6 +41,8 @@ public class PayrollApp {
             System.out.println(" 7 - Set a Service Tax");
             System.out.println(" 8 - Payment Schedule");
             System.out.println(" 9 - Create a Payment Schedule");
+            System.out.println(" 10 - Show the Employee List");
+            System.out.println(" 11 - Show the Unionist List");;
             System.out.println(" 0 - Exit PayRoll");
             System.out.println();
 
@@ -64,7 +66,11 @@ public class PayrollApp {
                 payApp.ChangePaymentSchedule(input);
             } else if(option == 9){
                 payApp.CreatePaymentSchedule(input);
-            }   
+            } else if(option == 10){
+                payApp.auxApp.PrintEmployeeList(emploList);
+            } else if(option == 11){
+                payApp.auxApp.PrintSyndiList(syndiList);
+            }
         }
         input.close();
     }

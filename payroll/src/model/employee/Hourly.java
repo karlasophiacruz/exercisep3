@@ -17,6 +17,13 @@ public class Hourly extends Employee {
         hours = 0;
     }
 
+    public Hourly(String name, String adress, Syndicate unionist, int id, PayCheck payCheck, 
+                                        boolean removed, int extraHours, int hours) {
+        super(name, adress, unionist, id, payCheck, removed);
+        this.extraHours = extraHours;
+        this.hours = hours;
+    }
+
     public int getExtraHours() {
         return extraHours;
     }

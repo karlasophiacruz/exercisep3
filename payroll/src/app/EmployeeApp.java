@@ -28,7 +28,6 @@ public class EmployeeApp {
     }
 
     public void AddEmployee(Scanner input){
-
         Employee employee = null;
         Syndicate unionist = null;
         int id = emploList.size();
@@ -82,7 +81,7 @@ public class EmployeeApp {
 
             employee = auxApp.AddEmployeeP(type, name, adress, unionist, id, grossSalary, payData, payMethod);
             emploList.add(employee);
-
+    
             System.out.println("Employee added sucessfully!");
         } else {
             System.out.println("Leaving Add Employee.");
@@ -298,4 +297,21 @@ public class EmployeeApp {
             }
         }
     }
+
+    /*public void UndoRedo(Scanner input){
+        System.out.println("Do you wanna undo or redo?");
+        System.out.println("1 - Undo\n2 - Redo");
+
+        int option = Integer.parseInt(input.nextLine());
+
+        if(option == 1){
+            ur.Undo();
+        } else if(option == 2){
+            ur.Redo();
+        } else{
+            System.out.println("Sorry, I didn't understand! :(");
+            System.out.println("Can you repeat, please?");
+            UndoRedo(input);
+        }
+    }*/
 }

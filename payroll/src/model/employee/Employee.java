@@ -1,6 +1,7 @@
 package model.employee;
 
 import model.syndicate.Syndicate;
+
 import model.payment.PayCheck;
 
 public abstract class Employee {
@@ -25,6 +26,15 @@ public abstract class Employee {
         this.unionist = unionist;
         this.id = id;
         this.removed = false;
+        this.payCheck = payCheck;
+    }
+
+    public Employee(String name, String adress, Syndicate unionist, int id, PayCheck payCheck, boolean removed) {
+        this.name = name;
+        this.adress = adress;
+        this.unionist = unionist;
+        this.id = id;
+        this.removed = removed;
         this.payCheck = payCheck;
     }
 

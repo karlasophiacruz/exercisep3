@@ -21,7 +21,7 @@ public class PaymentApp {
         paySchedule = new PaymentSchedule();
         auxApp = new AuxApp(emploList, syndiList);
         this.emploList = emploList;
-        this.syndiList = syndiList;
+        this.syndiList = syndiList;      
     }
 
     public void CreatePaymentSchedule(Scanner input){
@@ -114,10 +114,7 @@ public class PaymentApp {
                 if(emploList.get(j).isremoved() == false && emploList.get(j).getPayCheck().isPaid() == false){
                     System.out.println("roda 2");
                     String schedule[] = emploList.get(j).getPayCheck().getPaySchedule().split(" ");
-                    //System.out.println(schedule[0] + "->" + schedule[1] + "->" + schedule[2]);
                     if(schedule[0].equals("MONTHLY")){
-                        System.out.println(schedule[1]);
-                        System.out.println(dayToday + " -> " + lastDaymonth);
                         if(schedule[1].equals("$") && dayToday.equals(lastDaymonth)){
                             System.out.println("Today is the last util day of month.");
                             MakePaycheck(input, j);

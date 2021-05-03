@@ -48,16 +48,19 @@ public class AuxApp {
         if(empty != -1){
             for(int i = 0 ; i < emploList.size() ; i++){
                 if(!emploList.get(i).isremoved()){
-                    System.out.println(emploList.get(i));
+                    emploList.get(i).printInfo();
                 }
             }
         }
     }
 
     protected void PrintSyndiList(List<Syndicate> syndiList){
-        for(int i = 0 ; i < syndiList.size() ; i++){
-            if(syndiList.get(i).isUnion()){
-                System.out.println(i + "->" + syndiList.get(i).toString());
+        int empty = CheckEmployeeList();
+        if(empty != -1){
+            for(int i = 0 ; i < syndiList.size() ; i++){
+                if(syndiList.get(i).isUnion()){
+                    System.out.println(syndiList.get(i).toString());
+                }
             }
         }
     }
